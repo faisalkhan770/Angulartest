@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+.container{
+    margin:80px;
+    text-align: center;
+    display:flex;
+    justify-content: center;  
+}
+.phnimg{
+    height: 100px;
+}
+.visible{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.mainbox{
+    border: 0.001rem solid grey;
+    width: 300px;
+    text-align: center;
+    height: 350px;
+    margin: 30px;
+    background-color: white;
+}
+.mainbox h1{
+    margin: 40px;
+    font-family: cursive;
+    }
+.box{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /* justify-items: center; */
+}
+.box input{
+    margin: 5px 0px;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    border-color: none;
+}
+// .box input:hover{
+//     background-color: red;
+// }
+.login{
+    width: 250px;
+    height: 25px;
+    margin-top:10px ;
+    background-color: rgb(0, 181, 253);
+    color: white;
+}
+.line hr{ 
+    color:aliceblue;
+    width: 100px;
+    display: inline-flex;
+   text-align: right;
+   font-size: smaller;
+   
+}
+.secondbox{
+    margin-top:10px;
+}
+.fb img{
+    height: 25px;
+    position:relative;
+    top: 5px;
+}
+.fb a{
+    text-decoration: none;
+}
+.forget{
+    margin-top: 20px;
+    font-size:smaller;
+    /* margin: 5px 0px; */
+}
+.forget a{
+    text-decoration: none;
+    color: black;
+}
+.mainsecondbox{
+    border: 1px solid grey;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 30px;
+    background-color: white;
+    position: relative;
+    bottom: 22px;
+}
+.mainsecondbox a{
+    text-decoration: none;
+    color: rgb(0, 175, 244);
+}
+.appgog li a img{
+    display:inline-flex;
+    flex-direction: row;
+}
+
+.nav li{
+    display: inline-flex;
+    margin:0px 12px;
+}
+.nav img{
+    margin :12px 0px;
+   
+    height: 35px;
+}
+.footer{
+    text-align: center;
+    margin: -80px 310px;
+}
+.footer li{
+    display: inline-flex;
+    margin: 0px 12px;
+    /* font-weight: 1px; */
+    font-size: smaller;
+    
+}
+.footer li a{
+    text-decoration: none;
+    color: grey;
+}
+.dropdown{
+    /* display: inline-flex; */
+    margin:12px 0px;
+    /* background-color: whitesmoke; */
+    
+}
+.dropdown select{
+    background-color: whitesmoke;
+    color: grey;
+    border: none;
+}
+.copy{
+    margin:12px 0px;
+    color: grey;
+    font-size: smaller;
+}
+.inline{
+    display: flex;
+    text-align: center;
+    margin:2px 320px
+}
